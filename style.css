@@ -118,4 +118,38 @@ a {
 #searchLabel{
     display: inline;
 } 
-  
+
+/* Media queries Research */
+@media screen and (max-width: 600px) {
+    .titleHeader {
+        font-size: 22px;
+    }
+    .searchBar {
+      display:flex;
+      width: 100%;
+      margin-top: 24px;
+    }
+    .searchInput {
+      flex-grow: 1;
+    }
+    #btnSearch {
+      border-radius: 16px;
+    }
+    #searchLabel {
+      display: none;
+    }
+    #searchIcon {
+      display: block;
+    }
+}
+  @media screen and (max-width:450px) {
+    .searchInput {
+      width: 190px;
+    }
+    #searchTitle {
+        margin-top: 30px;
+    }
+    .subtitle {
+        margin-bottom: 30px;
+    }
+}

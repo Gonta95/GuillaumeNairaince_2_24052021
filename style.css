@@ -216,3 +216,28 @@ a {
 .nbLogements {
     margin-left: 20px;
 }
+/* media queries filters */
+@media screen and (max-width: 650px) {
+    .titleFilter {
+        width: 100%;
+        font-size: 1.3rem; 
+     }
+     .searchFilters {
+        margin-right: 8px;
+     }
+    .textFilter {
+        margin: 0 11.2px;
+     }
+    
+}
+@media screen and (max-width: 475px) {
+    .searchInfoIcon {
+        padding: 10px;
+    }
+    .nbLogements {
+        font-size: 13px;
+    }
+    .iconFont {
+        font-size: 16px;
+    }
+}

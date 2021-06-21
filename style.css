@@ -48,7 +48,6 @@ a {
       grid-template-areas: "logo . signup" 
                            "navlink navlink navlink";
     }
-   
     .navLinkHeader {
        width: 50%;
     }
@@ -61,5 +60,18 @@ a {
         border-bottom: 3px solid #f2f2f2;
         color: black;
     }
-   
-  }
+}
+
+
+#main {
+    max-width: 1440px;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 0 32px;
+}
+.titleHeader {
+    margin-bottom: 8px;
+}
+.subtitle {
+    margin-top: 0;
+}

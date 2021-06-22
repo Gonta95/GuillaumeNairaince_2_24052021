@@ -372,3 +372,85 @@ flex-grow: 1;
 .hotelCardStar {
     margin: 0px 10px 4px 14px;
 }
+
+/* ////////////// media queries Accomodation ////////////// */
+@media (max-width: 1200px) {
+    #accomodation {
+        grid-template-columns: 1fr;
+        row-gap: 32px;
+    }
+    #accPopular {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 160px;
+        column-gap: 2rem;
+        grid-row-start: 1; 
+    }
+    .accPopularTiltle {
+        grid-column: 1/-1; 
+    }
+}
+@media (max-width: 992px) {
+    #accPopular {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(3, 144px); 
+    }
+}
+@media (max-width: 992px) and (min-width: 660px) {
+    .accomodationMain {
+        grid-template-columns: 1fr 1fr; 
+    }
+    .title {
+        width: 100%; 
+    }
+}
+  @media (max-width: 660px) {
+    .accomodationMain {
+      grid-template-columns: 1fr;
+      background-color: white; 
+    }
+    .accViewMore {
+        font-size: 1.2rem; 
+    }
+}
+
+@media screen and (max-width:450px) {
+    .accomodationMain {
+        padding: 0;
+        grid-gap: 24px;  
+    }
+    .accPopularCard {
+        padding: 4px; 
+    }
+    #accPopular {
+        padding: 8px 13px 24px 13px;
+        border-radius: 0;
+        row-gap: 1.2rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto repeat(3, 128px) !important;
+    }
+    .accPopularTiltle {
+        font-size: 1.2rem;
+        margin-top: 16px; 
+    }
+    .accPopularContentImg {
+        width: 40%;
+        min-width: 40%;
+        max-width: 40%; 
+    }
+    .titlecontentAside {
+        font-size: 14px; 
+    }
+    .textcontentAside {
+        font-size: 12px; 
+    }
+    .titleAccomodation {
+        font-size: 20px;
+    }
+    .infoPrice{
+        margin: 5px 12px;  
+    }
+    .hotelCard {
+        box-shadow: 0px 0px 6px 0px #0000002e
+    }
+}
+  

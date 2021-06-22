@@ -570,3 +570,35 @@ flex-grow: 1;
 .footerColContentLink {
     margin: 8px 0;
 }
+/* /////////// media queries Footer //////////// */
+@media (max-width: 768px) {
+    .footerCol {
+        flex-direction: column;
+        padding: 32px;
+        text-align: center;
+    }
+    .footerColContent {
+        width: 100%;
+        padding: 0;
+        margin: 16px 0;
+    }
+    .footerColContent:first-child {
+      margin-top: 0;
+    }
+    .footerColContent:last-child {
+      margin-bottom: 0;
+    }
+    .footerColContentTitle {
+      margin: 0;
+      padding-top: 13px;
+      padding-bottom: 13px;
+    }
+    .footerColContentLink:last-child {
+      margin-bottom: 0;
+    }
+  }
+  @media screen and (max-width: 576px) {
+      .footerCol {
+          text-align:left;
+      }
+  }

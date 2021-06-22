@@ -305,3 +305,70 @@ a {
 .accViewMore {
     font-weight: bold;
 }
+/* accPopular */
+#accPopular {
+    background-color: #f2f2f2;
+    padding: 32px;
+    border-radius: 32px;
+    display: grid;
+    grid-template-rows: auto repeat(3, 1fr);
+    row-gap: 32px;
+    /* align-items: flex-start; */
+}
+.accPopularTiltle {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.accPopularCard {
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 16px;
+    padding: 6px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    height: 100%;
+}
+.accPopularCard:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+} 
+.accPopularContent {
+    display: flex;
+    height: 100%;
+    /* align-items: stretch; */
+    overflow: auto;
+}
+.accPopularContentImg {
+    position: relative;
+    width: 33%;
+    min-width: 33%;
+    max-width: 33%;
+    min-height: 100%;
+}
+.imgPopularContent {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px 0 0 16px;
+    object-fit: cover;
+}
+.contentAside {
+    display: flex;
+    flex-direction: column;
+}
+.titlecontentAside {
+    margin: 4px 10px 4px 14px;
+    font-size: 1.1rem; 
+}
+.title {
+    width: 88%;    
+}
+.textcontentAside {
+   margin: 4px 10px 0px 14px;
+}
+.separator {
+flex-grow: 1;
+}
+.hotelCardStar {
+    margin: 0px 10px 4px 14px;
+}

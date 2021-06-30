@@ -122,9 +122,10 @@ a {
 } 
 
 /* ///////////////// Media queries Research /////////////////// */
+
 @media screen and (max-width: 600px) {
     .titleHeader {
-        font-size: 22px;
+      font-size: 22px;
     }
     .searchBar {
       display:flex;
@@ -155,6 +156,47 @@ a {
         margin-bottom: 30px;
     }
 }
+
+@media screen and (max-width: 320px) {
+
+    .searchBar {
+        margin: 0 auto;
+    }
+
+    .searchInput {
+        width: 130px;
+      }
+      #searchTitle {
+          margin-top: 30px;
+      }
+      .subtitle {
+          margin-bottom: 30px;
+      }
+
+      .searchInput::placeholder {
+        font-size: 11px;
+    }
+    #btnSearch {
+     
+        border-radius: 16px;
+        padding: 0 16px;
+        font-size: 14px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* filters */
 .filters {

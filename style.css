@@ -278,24 +278,24 @@ a {
 }
 @media screen and (max-width: 475px) {
     .searchInfoIcon {
-        padding: 10px;
+         padding: 10px; 
     }
     .nbLogements {
-        font-size: 13px;
+        font-size: 13px; 
     }
     .iconFont {
-        font-size: 14px;
+        font-size: 10px;
     }
 
     .searchFilterContain {
-        width: 38px;
-        height: 38px;
+         width: 28px;
+         height: 28px;
     }
 
     
     .textFilter {
-       font-size: 14px;
-       padding: 8px;
+        padding: 7px; 
+       font-size: 11px;
      }
     
     

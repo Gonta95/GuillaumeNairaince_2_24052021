@@ -168,7 +168,7 @@ a {
     
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
 
     .searchBar {
         margin: 0 auto;
@@ -200,7 +200,7 @@ a {
     .titleHeader {
         font-size: 18px;
     }
-
+   
     
 }
 
@@ -338,6 +338,11 @@ a {
         padding: 7px; 
        font-size: 11px;
      }
+
+     .nbLogements {
+        font-size: 11px;
+        margin-left: 15px;
+    }
 }
 
 /*  Section Accomodation */

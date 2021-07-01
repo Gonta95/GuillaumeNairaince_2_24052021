@@ -145,9 +145,9 @@ a {
       display: block;
     }
 }
-  @media screen and (max-width:450px) {
+@media screen and (max-width:450px) {
     .searchInput {
-      width: 190px;
+      width: 160px;
     }
     #searchTitle {
         margin-top: 30px;
@@ -155,6 +155,17 @@ a {
     .subtitle {
         margin-bottom: 30px;
     }
+}
+
+
+@media screen and (max-width:361px) {
+    .titleHeader {
+        font-size: 19px;
+    }
+    .subtitle {
+        font-size: 14px;
+    }
+    
 }
 
 @media screen and (max-width: 320px) {
@@ -192,7 +203,6 @@ a {
 
     
 }
-
 
 
 
